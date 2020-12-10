@@ -1,0 +1,8 @@
+{
+    "nomenclature": {
+        "name": "New_Helpcenter",
+        "verboseName": "New Helpcenter"
+    },
+    "baseUrl": "/New_Helpcenter",
+    "source": "New_Helpcenter/src/index"
+}
