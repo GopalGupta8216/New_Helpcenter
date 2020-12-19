@@ -5,6 +5,8 @@ import { Provider } from 'react-redux'
 import thunk from 'redux-thunk'
 
 import App from './components/app'
+//  import './css/app.css'
+
 import rootReducers from './reducers'
 
 export default class AppRouter extends Component {
@@ -16,6 +18,7 @@ export default class AppRouter extends Component {
   render () {
     const { match } = this.props
     return (
+      
       <Provider store={this.store}>
         <Route path={`${match.path}/`} component={App} />
 

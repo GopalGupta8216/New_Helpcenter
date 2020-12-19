@@ -4,5 +4,9 @@
         "verboseName": "New Helpcenter"
     },
     "baseUrl": "/New_Helpcenter",
-    "source": "New_Helpcenter/src/index"
+    "source": "New_Helpcenter/src/index",
+    "primarySidebar": {
+        "icon": "help",
+        "priority": 10
+      }
 }
