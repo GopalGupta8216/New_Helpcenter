@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 import thunk from 'redux-thunk'
 
 import App from './components/app'
-import './css/app.css'
+//  import './css/app.css'
 
 import rootReducers from './reducers'
 

@@ -5,11 +5,16 @@
   box-sizing: border-box;
   font-size: 20px;
 }
-
 .central {
+  /* background-color: cornsilk; */
+  /* border: solid grey 2px; */
+  justify-content: space-around;
   display: flex;
-  margin: 10rem;
-  background-color: blue !important;
+  text-align: center;
+  width: 2rem;
+  margin-left: 15rem !important;
+  margin-top: 1rem;
+  margin-right: 15rem !important;
 }
 /* .ui.center.aligned.container{
   display: flex;
@@ -25,4 +30,11 @@
   flex-direction: row;
 
   align-content: space-between;
+}
+.heading {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
