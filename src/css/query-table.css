@@ -3,3 +3,26 @@
   border-radius: 0px 4px 4px 4px;
   /* background-color: blue; */
 }
+
+.query-form {
+  background-color: rgba(246, 249, 252, 1);
+  padding: 2rem;
+  margin-bottom: 4rem;
+  border-radius: 8px;
+  border: 1px solid rgba(196, 196, 196, 1);
+}
+
+.faq {
+  color: blue;
+}
+.faq-container {
+  margin-bottom: 4rem;
+}
+.submit {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.margin {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
