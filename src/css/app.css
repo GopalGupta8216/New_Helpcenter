@@ -1,9 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Lato";
   box-sizing: border-box;
   font-size: 20px;
+  line-height: 100%;
 }
 .central {
   justify-content: space-around;
@@ -15,21 +16,29 @@
   margin-right: 15rem !important;
 }
 
-.ui.center.aligned.container {
-  background-color: cornsilk;
-  border: solid grey 2px;
-  justify-content: space-around;
-  display: flex;
-  text-align: center;
-  margin: 3rem;
-  flex-direction: row;
-
-  align-content: space-between;
-}
 .heading {
   color: black;
   font-size: 2rem;
   font-weight: bold;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.top-bottom-1rem-m {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  /* margin: 2rem; */
+}
+.font-24 {
+  font-size: larger;
+  padding: 1rem;
+  line-height: 150%;
+}
+
+.margin-left {
+  margin-left: 2rem;
+  padding: 1rem;
+}
+.margin-left-right {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
