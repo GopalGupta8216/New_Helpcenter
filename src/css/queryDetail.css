@@ -1,0 +1,22 @@
+.app-name {
+  font-weight: bold;
+  margin-left: 4rem;
+  font-size: xx-large;
+}
+
+.fadded {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1rem;
+  align-items: center;
+  color: #878787;
+  margin-left: 1rem;
+}
+
+.queryInfo {
+  border: 1px;
+  border-top: 5px;
+  background-color: crimson;
+}
